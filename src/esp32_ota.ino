@@ -9,7 +9,7 @@ const char * password = "@enzo1234";
 
 
 String FirmwareVer = {
-  "2.3"
+  "2.4"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/firmware.bin"
@@ -23,7 +23,7 @@ int FirmwareVersionCheck();
 
 unsigned long previousMillis = 0; // will store last time LED was updated
 unsigned long previousMillis_2 = 0;
-const long interval = 60000;
+const long interval = 10000;
 const long mini_interval = 1000;
 void repeatedCall() {
   static int num=0;
