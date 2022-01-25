@@ -11,11 +11,11 @@ const char * password = "@enzo1234";
 String FirmwareVer = {
   "2.2"
 };
-#define URL_fw_Version "https://github.com/dinhow/cpdcare/raw/main/src/bin_version.txt"
+#define URL_fw_Version "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
-//#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
+//#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmw.bin"
 
 void connect_wifi();
 void firmwareUpdate();
