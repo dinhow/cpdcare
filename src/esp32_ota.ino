@@ -9,7 +9,7 @@ const char * password = "@enzo1234";
 
 
 String FirmwareVer = {
-  "2.2"
+  "2.3"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/dinhow/cpdcare/main/src/firmware.bin"
